@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd58a224-f81d-41b4-bc6c-c41d38097bdc" name="Changes" comment="Section 23.401(Concurrency in Java: Thread Interference): code has been synchronized, java.util.concurrent.locks.lock interface in next video">
+    <list default="true" id="fd58a224-f81d-41b4-bc6c-c41d38097bdc" name="Changes" comment="Section 23.402(Concurrency in Java: Reentrant Lock and Unlock): introduced to ReentrantLock class, .lock(), and .unlock() as substitute to synchronized(){blocks}">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cor/lan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cor/lan/Main.java" afterDir="false" />
     </list>
@@ -42,7 +42,7 @@
       <recent name="cor.lan" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cor.lan.Main" />
       <module name="ProducerConsumer_Section23ConcurrencyInJava" />
@@ -69,7 +69,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cor.lan.Main" />
       <module name="ProducerConsumer_Section23ConcurrencyInJava" />
       <extension name="coverage">
@@ -82,7 +82,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cor.lan.Main" />
       <module name="ProducerConsumer_Section23ConcurrencyInJava" />
       <extension name="coverage">
@@ -110,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -134,11 +134,19 @@
       <option name="project" value="LOCAL" />
       <updated>1692596953123</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Section 23.402(Concurrency in Java: Reentrant Lock and Unlock): introduced to ReentrantLock class, .lock(), and .unlock() as substitute to synchronized(){blocks}">
+      <created>1692684476980</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692684476980</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Section 23.401(Concurrency in Java: Thread Interference): code has been synchronized, java.util.concurrent.locks.lock interface in next video" />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 23.401(Concurrency in Java: Thread Interference): code has been synchronized, java.util.concurrent.locks.lock interface in next video" />
+    <MESSAGE value="Section 23.402(Concurrency in Java: Reentrant Lock and Unlock): introduced to ReentrantLock class, .lock(), and .unlock() as substitute to synchronized(){blocks}" />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 23.402(Concurrency in Java: Reentrant Lock and Unlock): introduced to ReentrantLock class, .lock(), and .unlock() as substitute to synchronized(){blocks}" />
   </component>
 </project>
