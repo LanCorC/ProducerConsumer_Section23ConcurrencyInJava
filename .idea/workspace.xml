@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd58a224-f81d-41b4-bc6c-c41d38097bdc" name="Changes" comment="Section 23.402(Concurrency in Java: Reentrant Lock and Unlock): introduced to ReentrantLock class, .lock(), and .unlock() as substitute to synchronized(){blocks}">
+    <list default="true" id="fd58a224-f81d-41b4-bc6c-c41d38097bdc" name="Changes" comment="Section 23.404(Concurrency in Java: Thread Pools): introduction to ExecutorService which uses thread pools, Executors.(factoryMethod)(), .execute(Runnable), using Callable (or lambda), eService.shutdown(), .shutdownNow(), and Future class for awaiting returned results from background threads">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cor/lan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cor/lan/Main.java" afterDir="false" />
     </list>
@@ -141,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692684476980</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Section 23.404(Concurrency in Java: Thread Pools): introduction to ExecutorService which uses thread pools, Executors.(factoryMethod)(), .execute(Runnable), using Callable (or lambda), eService.shutdown(), .shutdownNow(), and Future class for awaiting returned results from background threads">
+      <created>1693281746436</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693281746436</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,6 +165,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Section 23.401(Concurrency in Java: Thread Interference): code has been synchronized, java.util.concurrent.locks.lock interface in next video" />
     <MESSAGE value="Section 23.402(Concurrency in Java: Reentrant Lock and Unlock): introduced to ReentrantLock class, .lock(), and .unlock() as substitute to synchronized(){blocks}" />
-    <option name="LAST_COMMIT_MESSAGE" value="Section 23.402(Concurrency in Java: Reentrant Lock and Unlock): introduced to ReentrantLock class, .lock(), and .unlock() as substitute to synchronized(){blocks}" />
+    <MESSAGE value="Section 23.404(Concurrency in Java: Thread Pools): introduction to ExecutorService which uses thread pools, Executors.(factoryMethod)(), .execute(Runnable), using Callable (or lambda), eService.shutdown(), .shutdownNow(), and Future class for awaiting returned results from background threads" />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 23.404(Concurrency in Java: Thread Pools): introduction to ExecutorService which uses thread pools, Executors.(factoryMethod)(), .execute(Runnable), using Callable (or lambda), eService.shutdown(), .shutdownNow(), and Future class for awaiting returned results from background threads" />
   </component>
 </project>
